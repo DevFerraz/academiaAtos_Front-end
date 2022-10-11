@@ -1,9 +1,41 @@
 .container {
-    height: 300px;
-    width: 400px;
-}
+    height: 500px;
+    width: 600px;
+    background-color: blue;
+    border-radius: 8%;
+    overflow: auto;
+    position: relative;
+    }
 
 .elemento {
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+div .elemento:nth-child(1){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+div .elemento:nth-of-type(2){
+    position: absolute;
+    right: 0;
+    bottom: 27.5%;
+}
+
+div .elemento:nth-of-type(3){
+    position: absolute;
+    right: 0;
+    bottom: 55%
+}
+
+div .elemento:nth-of-type(4){
+    position: absolute;
+    right: 0;
 }
